@@ -27,7 +27,7 @@ input + div {
     position: fixed;
     top: 0px; 
     bottom: 0px;
-    left: -240px;
+    left: -250px;
     height: 100vh;
     background-color: hsl(40, 100%, 60%);
     font-family: 'Segoe UI', sans-serif;
