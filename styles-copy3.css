@@ -69,10 +69,6 @@ input:checked + div {
     font-weight: bold; 
 }
 
-#table-of-contents2 .link-section {
-    padding-top: 20px;
-}
-
 header {
     background-color: hsl(40, 100%, 50%);
     text-align: center;
@@ -112,8 +108,10 @@ header p {
 }
 
 .link-section {
+    padding-top: 20px;
     border-left: 3px solid hsl(20, 60%, 45%);
     font-weight: bold;
+    color: hsl(20, 60%, 40%);
 }
 
 #table-of-contents .link {
@@ -123,7 +121,7 @@ header p {
 
 #table-of-contents a {
     text-decoration: none;
-    color: black;
+    color: hsl(0, 0%, 0%);
 }
 
 #table-of-contents3 div {
@@ -151,7 +149,7 @@ a:active {
 }
 
 h2, h3 {
-    color: black;
+    color: hsl(0, 0%, 0%);
     font-family: Verdana, sans-serif;
 }
 
@@ -230,7 +228,7 @@ main {
     }
 
     #table-of-contents2 a {
-        color: black;
+        color: hsl(0, 0%, 0%);
     }
 
     #table-of-contents2 p {
@@ -283,6 +281,11 @@ main {
     h2 {
         text-align: center;
         background-color: hsl(40, 100%, 50%);
+    }
+
+    #table-of-contents2 a {
+        text-decoration: none;
+        color: hsl(0, 0%, 0%);
     }
 }
 
