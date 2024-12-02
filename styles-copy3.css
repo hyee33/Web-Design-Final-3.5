@@ -65,12 +65,12 @@ input:checked + div {
     background-color: hsl(40, 100%, 50%);
 }
 
-#table-of-contents2 .link-section {
-    padding-top: 20px;
-}
-
 #selected-page {
     font-weight: bold; 
+}
+
+#table-of-contents2 .link-section {
+    padding-top: 20px;
 }
 
 header {
