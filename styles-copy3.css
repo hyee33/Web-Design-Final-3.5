@@ -175,6 +175,10 @@ blockquote + p {
     text-indent: 0px;
 }
 
+li p {
+    text-indent: 0em;
+}
+
 .sources {
     padding-top: 20px;
 }
