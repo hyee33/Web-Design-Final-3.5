@@ -12,7 +12,7 @@ body {
 
 input {
     position: fixed;
-    left: 8px;
+    left: 0px;
     top: 30px;
     transition: .3s;
 }
@@ -44,9 +44,10 @@ input:checked + div {
 }
 
 #checkbox {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     accent-color: hsl(20, 60%, 45%);
+    border: 3px solid hsl(40, 100%, 60%);
 }
 
 #table-of-contents2 {
@@ -326,7 +327,7 @@ main {
 
     input:checked {
         position: fixed;
-        left: 265px;
+        left: 240px;
         transition: .3s;
     }
     
