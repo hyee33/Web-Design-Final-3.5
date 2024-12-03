@@ -334,7 +334,7 @@ main {
         position: fixed;
         top: 0px; 
         bottom: 0px;
-        left: -260px;
+        left: -270px;
         height: 100vh;
         background-color: hsl(40, 100%, 60%);
         font-family: 'Segoe UI', sans-serif;
@@ -342,8 +342,21 @@ main {
         transition: .3s;
     }
 
-    #table-of-contents .link:hover {
-        background-color: hsl(40, 100%, 60%);
+    #table-of-contents2 .link-section {
+        padding-top: 0px;
+    }
+
+    #table-of-contents2 .link {
+        color: hsl(0, 0%, 0%);
+    }
+
+    #table-of-contents2 h3 {
+        margin-bottom: 0px; margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    #table-of-contents2 p {
+        font-size: medium;
     }
 
     article {
