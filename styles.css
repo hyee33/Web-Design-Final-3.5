@@ -162,12 +162,12 @@ h3 {
     border: none;
 }
 
-article {
+section {
     line-height: 1.8;
     margin:30px;
 }
 
-article p {
+section p {
     text-indent: 2em;
 }
 
@@ -364,7 +364,7 @@ main {
         font-size: medium;
     }
 
-    article {
+    section {
         margin: 0px;
     }
 
