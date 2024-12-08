@@ -401,8 +401,8 @@ main {
     }
 
     li p {
-        text-indent: -2em;
-        margin-left: 50px;
+        text-indent: 0em;
+        margin-left: 10px;
         margin-bottom: 20px;
     }
 }
