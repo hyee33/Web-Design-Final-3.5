@@ -399,6 +399,12 @@ main {
     #table-of-contents3 h3 {
         border: none;
     }
+
+    li p {
+        text-indent: -2em;
+        margin-left: 5px;
+        margin-bottom: 20px;
+    }
 }
 
 /* print */
