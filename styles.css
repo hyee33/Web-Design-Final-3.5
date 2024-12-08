@@ -147,6 +147,7 @@ a:active {
 .column1 {
     width: 60%;
     margin: auto;
+    padding-bottom: 40px;
 }
 
 h2, h3 {
@@ -193,8 +194,14 @@ li p {
     text-decoration: none;
 }
 
-main {
-    padding-bottom: 40px;
+#copyright {
+    background-color: hsl(40, 100%, 50%);
+    text-align: center;
+    width: 100vw;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+    padding: 3px;
+    font-size: small;
 }
 
 /* fullscreen */
